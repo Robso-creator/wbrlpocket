@@ -1,0 +1,38 @@
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-image: url("/assets/images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+a {
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: var(--dourado);
+
+    padding: 5px;
+    border-radius: 10px;
+
+    font-family:"Syne Tactile", cursive;
+}
+
+h1 {
+    font-weight: bold;
+    color: var(--dourado);
+    font-family:"Syne Tactile", cursive;
+    text-shadow: 2px 2px white;
+}

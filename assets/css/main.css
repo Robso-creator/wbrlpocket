@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+:root{
+    --preto: black;
+    --dourado: #dbc200;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+    color: aliceblue;
+}
