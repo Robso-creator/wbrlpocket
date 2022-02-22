@@ -21,3 +21,25 @@
     border-radius: 50%;
     height: 40px;
 }
+
+#send{
+    margin: 10px 15px;
+    padding: 12px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10%;
+    border: 2px solid #DBC200;
+    background-color: #5C5100;
+    color: white;
+}
+
+#counterPc,
+#counterPl,
+#counterPo,
+#counterPp{
+    font-size: 30px;
+    font-weight: bold;
+
+    height: 40px;
+    width: 55px;
+}
