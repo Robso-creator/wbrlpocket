@@ -7,5 +7,5 @@ https://robso-creator.github.io/wbrlpocket/
 
 # Update de versão
 ## Último update
-###1.1
+### 1.1
 Tornei possível iniciar com qualquer valor em sua carteira além de adicionar a página para o mestre
