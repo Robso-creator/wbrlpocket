@@ -7,3 +7,21 @@ button{
     background-color: #5C5100;
     color: white;
 }
+
+li button {
+    width: 45px;
+}
+
+#back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#back a{
+    margin: 1;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+}
