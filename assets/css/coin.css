@@ -1,3 +1,8 @@
+#coinsPocket{
+    height: 40px;
+    margin: 15px;
+}
+
 #coinPl {
     background-color: #CCD2E8;
     border-radius: 50%;
@@ -22,6 +27,12 @@
     height: 40px;
 }
 
+#coinPb {
+    background-color: #f1a026;
+    border-radius: 50%;
+    height: 40px;
+}
+
 #send{
     margin: 10px 15px;
     padding: 12px;
@@ -36,7 +47,8 @@
 #counterPc,
 #counterPl,
 #counterPo,
-#counterPp{
+#counterPp,
+#counterPb{
     font-size: 30px;
     font-weight: bold;
 

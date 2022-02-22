@@ -2,8 +2,8 @@ var pl = document.getElementById("counterPl");
 var po = document.getElementById("counterPo");
 var pp = document.getElementById("counterPp");
 var pc = document.getElementById("counterPc");
+var pb = document.getElementById("counterPb");
 
-const btn = document.querySelector("#send");
 
 const INCREMENTPL = document.getElementById("incrementPl");
 const DECREMENTPL = document.getElementById("decrementPl");
@@ -17,23 +17,19 @@ const DECREMENTPP = document.getElementById("decrementPp");
 const INCREMENTPC = document.getElementById("incrementPc");
 const DECREMENTPC = document.getElementById("decrementPc");
 
-btn.addEventListener("click", function (e) {
-  e.preventDefault();
-
-  var countpl = pl.value;
-  var countpo = po.value;
-  var countpp = pp.value;
-  var countpc = pc.value;
-
-
+const INCREMENTPB = document.getElementById("incrementPb");
+const DECREMENTPB = document.getElementById("decrementPb");
+  
   //PL COUNTER
 
   INCREMENTPL.addEventListener("click", function incrementpl() {
+    var countpl = pl.value
     countpl++;
     pl.value = countpl;
   });
 
   DECREMENTPL.addEventListener("click", function decrementpl() {
+    var countpl = pl.value
     countpl--;
     pl.value = countpl;
   });
@@ -41,11 +37,13 @@ btn.addEventListener("click", function (e) {
   //PO COUNTER
 
   INCREMENTPO.addEventListener("click", function incrementpl() {
+    var countpo = po.value
     countpo++;
     po.value = countpo;
   });
 
   DECREMENTPO.addEventListener("click", function decrementpl() {
+    var countpo = po.value
     countpo--;
     po.value = countpo;
   });
@@ -53,11 +51,13 @@ btn.addEventListener("click", function (e) {
   //PP COUNTER
 
   INCREMENTPP.addEventListener("click", function incrementpl() {
+    var countpp = pp.value
     countpp++;
     pp.value = countpp;
   });
 
   DECREMENTPP.addEventListener("click", function decrementpl() {
+    var countpp = pp.value
     countpp--;
     pp.value = countpp;
   });
@@ -65,12 +65,27 @@ btn.addEventListener("click", function (e) {
   //PC COUNTER
 
   INCREMENTPC.addEventListener("click", function incrementpl() {
+    var countpc = pc.value
     countpc++;
     pc.value = countpc;
   });
 
   DECREMENTPC.addEventListener("click", function decrementpl() {
+    var countpc = pc.value
     countpc--;
     pc.value = countpc;
   });
-});
+
+  //PB COUNTER
+
+  INCREMENTPB.addEventListener("click", function incrementpl() {
+    var countpb = pb.value
+    countpb++;
+    pb.value = countpb;
+  });
+
+  DECREMENTPB.addEventListener("click", function decrementpl() {
+    var countpb = pb.value
+    countpb--;
+    pb.value = countpb;
+  });
